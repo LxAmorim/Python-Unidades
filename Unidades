@@ -1,0 +1,15 @@
+op=0
+while op==0 or op>8:
+    op=int(input(print("""Escolha sua unidade. Caso deseja encerrar digite 0 \n
+    1 - Unidade de Saúde da Familia Brotas\n
+    2 - Unidade de Saúde da Familia Ribeira\n
+    3 - Unidade de Saúde da Familia Boca do Rio\n
+    4 - Unidade de Saúde da Familia Itapuã\n
+    5 - Unidade de Saúde da Familia Itinga\n
+    6 - Hospital da Mulher\n
+    7 - Hospital Geral do Estado\n
+    8 - Hospital Menandro de Farias\n""")))
+    if op==0 or op>8:
+        quit()
+    
+print ("Você escolheu a unidade {}".format(op))
